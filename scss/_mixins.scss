@@ -1,0 +1,13 @@
+@mixin brand-btn {
+  width: 195px;
+  height: 64px;  
+  border-radius: $radius-4;
+  background: $color-primary;
+  color: $color-white;
+  font-weight: $font-weight-bold;
+  font-size: $font-14;
+  line-height: 20px;
+  letter-spacing: 0.6px;
+  text-align: center;
+  text-transform: uppercase;
+}

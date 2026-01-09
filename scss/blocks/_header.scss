@@ -1,0 +1,64 @@
+.header {
+  width: 100%;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  position: fixed;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    
+    &-product {
+      max-width: 96px;
+      display: flex;
+      padding-right: 20px;
+      background-image: url(../../images/menu-dropdown.svg);
+      background-repeat: no-repeat;
+      background-position: 75px 9px;
+    }
+
+    &-product-menu {
+      width: 96px;
+      height: 22px;
+      font-weight: $font-weight-regular;
+      font-size: $font-17;
+      line-height: 22px;
+      color: $text-primary;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+    }
+
+    &-link {
+      padding: 12px 23px 11px;
+      border-radius: $radius-4;
+      font-weight: $font-weight-bold;
+      font-size: $font-13;
+      line-height: 16px;
+      border: 1px solid $color-primary;
+      color: $color-primary;
+      text-decoration: none;
+    }
+  }
+  
+  &__button {
+    width: 136px;
+    height: 39px;
+    border-radius: $radius-4;
+    font-weight: $font-weight-bold;
+    font-size: $font-13;
+    line-height: 16px;
+    background-color: $color-primary;
+    color: $color-white;
+    border: none;
+    cursor: pointer;
+  }
+  
+}
