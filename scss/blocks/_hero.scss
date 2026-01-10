@@ -1,0 +1,71 @@
+.hero {
+  padding-top: 184px;
+  padding-bottom: 20px;
+
+  &__list {
+    max-width: 531px;
+  }
+
+  &__title {
+    max-width: 396px;
+    font-weight: $font-weight-regular;
+    font-size: $font-45;
+    line-height: 62px;
+    margin-bottom: 25px;
+  }
+
+  &__text {
+    max-width: 470px;
+    font-weight: $font-weight-regular;
+    font-size: $font-20;
+    line-height: 32px;
+    margin-bottom: 36px;
+  }
+}
+
+.email__forom {
+  display: flex;
+  max-width: 495px;
+
+  &-input {
+    padding: 23px 25px;
+    font-weight: $font-weight-regular;
+    font-size: $font-18;
+    outline: none;
+    border: $border-2 solid $color-primary;
+    border-top-left-radius: $radius-4;
+    border-bottom-left-radius: $radius-4;
+    color: rgb($color-black,$opacity-39);
+    transition: all 0.3s;
+
+    &:hover {
+      border-color: #009973;
+      box-shadow: 0px 0px 10px 4px rgba($color-primary,$opacity-39);
+    }
+  }
+}
+
+.submit__btn {
+  width: 159px;
+  height: 70px;
+  font-weight: $font-weight-regular;
+  font-size: $font-18;
+  border: none;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border: $border-2 solid $color-primary;
+  background-color: $color-primary;
+  color: $color-white;
+  transition: all 0.3s;
+  cursor: pointer;
+
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 5px 10px 4px rgba($color-primary,$opacity-39);
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
+}

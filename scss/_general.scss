@@ -20,4 +20,7 @@ body {
   overflow-x: hidden;
   color: $text-primary;
   background-color: $color-white;
+  background-image: url(../images/header-bg-img.png);
+  background-repeat: no-repeat;
+  background-position: top right;
 }
