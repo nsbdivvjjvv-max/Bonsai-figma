@@ -1,0 +1,68 @@
+.workflow {
+  padding-top: 20px;
+  padding-bottom: 174px;
+  background-image: url(../../images/workflow-img-bg.png);
+  background-repeat: no-repeat;
+  background-position: left 150px;
+
+  &__title {
+    font-weight: $font-weight-regular;
+    font-size: $font-43;
+    line-height: 44px;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+
+  &__subtitle {
+    max-width: 670px;
+    font-weight: $font-weight-regular;
+    font-size: $font-24;
+    line-height: 32px;
+    text-align: center;
+    color: rgb($text-primary,$opacity-66);
+    margin: 0 auto;
+    margin-bottom: 79px;
+  }
+
+  &__compare {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 106px;
+  }
+
+  &__heading {
+    font-weight: $font-weight-bold;
+    font-size: $font-23;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 45px;
+  }
+
+  &__preview {
+    display: flex;
+    justify-content: center;
+  }
+  
+  &__flow {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    gap: 29px 1px;
+    background-image: url(../../images/workflow-column-img-bg.svg);
+    background-repeat: no-repeat;
+    background-position: 45% 25px;
+
+    &-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &-label {
+      font-weight: $font-weight-regular;
+      font-size: $font-16;
+      line-height: 100%;
+      padding-top: 15px;
+    }
+  }
+}
